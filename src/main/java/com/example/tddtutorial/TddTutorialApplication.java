@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TddTutorialApplication {
 
 	public static void main(String[] args) {
+		System.out.println("V2");
 		SpringApplication.run(TddTutorialApplication.class, args);
 	}
 }

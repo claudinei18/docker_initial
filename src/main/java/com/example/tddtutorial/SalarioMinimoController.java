@@ -21,12 +21,12 @@ public class SalarioMinimoController {
     @GetMapping("/salarios")
     @ResponseBody
     public String index() {
-        return "index";
+        return "index2";
     }
 
     @GetMapping("/salarios/novo")
     public String save(Model model, @ModelAttribute("salarioMinimo") SalarioMinimo salarioMinimo) {
-        return "save";
+        return "save_v1";
     }
 
     @PostMapping("/salarios")
